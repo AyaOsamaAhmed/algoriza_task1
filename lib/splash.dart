@@ -8,23 +8,6 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    List<ItemOfPageView> items = [
-      ItemOfPageView(
-          imagePath: 'assets/images/onboard-1.png',
-          headLine: 'Get food delivery to your doorstep asap',
-          description:
-          'We have young and professional delivery team that will bring your food as soon as possible to your doorstep'),
-      ItemOfPageView(
-          imagePath: 'assets/images/onboard-2.png',
-          headLine: 'Buy Any Food from your favourite restaurant',
-          description:
-          'We have young and professional delivery team that will bring your food as soon as possible to your doorstep'),
-      ItemOfPageView(
-          imagePath: 'assets/images/onboard-2.jpg',
-          headLine: 'Buy Any Food from your favourite restaurant',
-          description:
-          'We have young and professional delivery team that will bring your food as soon as possible to your doorstep'),
-    ];
 
     return Scaffold(
       body: SafeArea(
